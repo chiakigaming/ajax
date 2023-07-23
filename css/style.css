@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'OCR-BczykNorm';
+    src: url('../fonts/OCR-BczykNorm.woff2') format('woff2'),
+        url('../fonts/OCR-BczykNorm.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.lambda {
+    width: 100px;
+}
+.main {
+    display: flex;
+    align-items: center;
+}
+.RTM {
+    display: flex;
+}
+.navmesh {
+    margin-left: 50px;
+}
+.kraken {
+    margin-right: 25px;
+}
+.medic {
+    color: blue;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-family: 'OCR-BczykNorm';
+    
+}
+.king {
+    max-width: 1176px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: cornflowerblue;
+}
+.memes {
+    max-width: 1950px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: slategray;
+}
+.queen {
+    max-width: 404px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blueviolet;
+    text-align: center;
+}
+.tf2 {
+    width: 279px;
+    height: 299px;
+    background-color: firebrick;
+}
+.images {
+display: flex;
+justify-content: space-between;
+}
+.sign1 {
+   color: burlywood;
+}
+.sign2 {
+ font-size: 40px;
+}
+.lore {
+font-size: 20px;
+}
+@media (max-width:1024) {
+    .images {
+        flex-wrap: wrap;
+    }
+    .tf2 {
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:480px) {
+    .navmesh {
+        display: none;
+    }
+}
